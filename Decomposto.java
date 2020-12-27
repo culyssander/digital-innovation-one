@@ -16,7 +16,7 @@ public class Decomposto {
 		int [] quantidades = new int[7];
 		int resto = valorDoTeclado;
 
-        for(int i = 0; i < 7; i++) {
+                for(int i = 0; i < 7; i++) {
 			quantidades[i] = resto / notas[i];
 			
 			resto = resto - (quantidades[i] * notas[i]);
